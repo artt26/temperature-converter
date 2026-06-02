@@ -12,10 +12,19 @@
         <h1>Temperature Converter</h1>
         <input type="number" id="textbox" placeholder="0"><br>
 
-        <input type="radio" id="toF" name="unit">
-        <label for="toF">Celcius to Fahrenheit</label><br>
-        <input type="radio" id="toC" name="unit">
-        <label for="toC">Fahrenheit to Celcius</label><br>
+        <input type="radio" id="CtoF" name="unit">
+        <label for="CtoF">Celcius to Fahrenheit</label><br>
+        <input type="radio" id="FtoC" name="unit">
+        <label for="FtoC">Fahrenheit to Celcius</label><br><br>
+        <input type="radio" id="CtoK" name="unit">
+        <label for="CtoK">Celcius to Kelvin</label><br>
+        <input type="radio" id="FtoK" name="unit">
+        <label for="FtoK">Fahrenheit to Kelvin</label><br><br>
+        <input type="radio" id="KtoF" name="unit">
+        <label for="KtoF">Kelvin to Fahrenheit</label><br>
+        <input type="radio" id="KtoC" name="unit">
+        <label for="KtoC">Kelvin to Celsius</label><br>
+        
 
         <button type="button" text="convert" onclick="convert()">Convert</button><br>
         <p1 id="result"></p1>
